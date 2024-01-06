@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth; 
+}
+
+@layer base {
+	body {
+		@apply leading-relaxed font-Roboto bg-white;
+	}
+}
+
+/* Hide horizontal scrollbar */
+::-webkit-scrollbar {
+    display: none;
+}
